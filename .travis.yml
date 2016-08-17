@@ -4,7 +4,7 @@ language: cpp
 compiler: gcc
 env:
   matrix:
-    - BAMTOOLS_ARGS=""
+    -
     - BAMTOOLS_ARGS="-DEnableNodeJS=true"
 before_install:
   - git submodule update --init --recursive
